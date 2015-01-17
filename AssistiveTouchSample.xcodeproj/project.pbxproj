@@ -14,6 +14,9 @@
 		DB8CB9B51A6AE48C00281791 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8CB9B41A6AE48C00281791 /* Images.xcassets */; };
 		DB8CB9B81A6AE48C00281791 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8CB9B61A6AE48C00281791 /* LaunchScreen.xib */; };
 		DB8CB9C41A6AE48C00281791 /* AssistiveTouchSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8CB9C31A6AE48C00281791 /* AssistiveTouchSampleTests.m */; };
+		DB8CB9CF1A6AE4A400281791 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8CB9CE1A6AE4A400281791 /* UIView+Helper.m */; };
+		DB8CB9D21A6AE79F00281791 /* PopoverTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8CB9D11A6AE79F00281791 /* PopoverTransition.m */; };
+		DB8CB9D51A6AE83900281791 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8CB9D41A6AE83900281791 /* MenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		DB8CB9BD1A6AE48C00281791 /* AssistiveTouchSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistiveTouchSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8CB9C21A6AE48C00281791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8CB9C31A6AE48C00281791 /* AssistiveTouchSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssistiveTouchSampleTests.m; sourceTree = "<group>"; };
+		DB8CB9CD1A6AE4A400281791 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		DB8CB9CE1A6AE4A400281791 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		DB8CB9D01A6AE79F00281791 /* PopoverTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverTransition.h; sourceTree = "<group>"; };
+		DB8CB9D11A6AE79F00281791 /* PopoverTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverTransition.m; sourceTree = "<group>"; };
+		DB8CB9D31A6AE83900281791 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		DB8CB9D41A6AE83900281791 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				DB8CB9AC1A6AE48C00281791 /* AppDelegate.m */,
 				DB8CB9AE1A6AE48C00281791 /* ViewController.h */,
 				DB8CB9AF1A6AE48C00281791 /* ViewController.m */,
+				DB8CB9D31A6AE83900281791 /* MenuViewController.h */,
+				DB8CB9D41A6AE83900281791 /* MenuViewController.m */,
+				DB8CB9CD1A6AE4A400281791 /* UIView+Helper.h */,
+				DB8CB9CE1A6AE4A400281791 /* UIView+Helper.m */,
+				DB8CB9D01A6AE79F00281791 /* PopoverTransition.h */,
+				DB8CB9D11A6AE79F00281791 /* PopoverTransition.m */,
 				DB8CB9B11A6AE48C00281791 /* Main.storyboard */,
 				DB8CB9B41A6AE48C00281791 /* Images.xcassets */,
 				DB8CB9B61A6AE48C00281791 /* LaunchScreen.xib */,
@@ -220,7 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8CB9B01A6AE48C00281791 /* ViewController.m in Sources */,
+				DB8CB9D51A6AE83900281791 /* MenuViewController.m in Sources */,
 				DB8CB9AD1A6AE48C00281791 /* AppDelegate.m in Sources */,
+				DB8CB9D21A6AE79F00281791 /* PopoverTransition.m in Sources */,
+				DB8CB9CF1A6AE4A400281791 /* UIView+Helper.m in Sources */,
 				DB8CB9AA1A6AE48C00281791 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
